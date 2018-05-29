@@ -1,5 +1,5 @@
-#ifndef GRAPHS4_INCMATRIX_H
-#define GRAPHS4_INCMATRIX_H
+#ifndef GRAPHS5_INCMATRIX_H
+#define GRAPHS5_INCMATRIX_H
 
 #include <vector>
 
@@ -19,4 +19,4 @@ private:
     std::vector<std::vector<int>>m_incMatrix;
 };
 
-#endif //GRAPHS4_INCMATRIX_H
+#endif //GRAPHS5_INCMATRIX_H

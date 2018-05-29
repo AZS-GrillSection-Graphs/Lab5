@@ -1,8 +1,9 @@
-#ifndef GRAPHS4_ADJLIST_H
-#define GRAPHS4_ADJLIST_H
+#ifndef GRAPHS5_ADJLIST_H
+#define GRAPHS5_ADJLIST_H
 
 
 #include "IncMatrix.h"
+#include "AdjMatrix.h"
 
 
 class AdjList
@@ -26,4 +27,4 @@ private:
     std::vector<std::vector<int>>m_adjList;
 };
 
-#endif //GRAPHS4_ADJLIST_H
+#endif //GRAPHS5_ADJLIST_H
