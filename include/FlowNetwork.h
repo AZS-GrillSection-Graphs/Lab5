@@ -21,7 +21,8 @@ private:
     void CreateRandomConnections(unsigned long connectionsNumber);
     bool BFS(AdjMatrix & residualGraph, unsigned int path[]);
 
-    void PrintCapacityToFile(const char *fileName) const;
+    void SaveCapacityToFile(const char *fileName) const;
+    void SaveLayersToFile(const char * fileName) const;
     void ConvertCapacityToMatrix(std::vector<std::vector<int>> & residualCapacity);
 
     AdjList adjList;
@@ -31,7 +32,6 @@ private:
     std::vector<std::vector<int>> capacity;
 
     bool AreVerticesConnected(int start, int end);
-
     void PrintCapacity() const;
 };
 
